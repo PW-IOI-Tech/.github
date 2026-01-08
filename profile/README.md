@@ -169,5 +169,5 @@ Official announcements, contribution drives, and updates are shared through PW-I
 
 ---
 
-**Build with purpose. Collaborate with discipline.**
+**Build with purpose. Collaborate with discipline.**<br />
 **PW Institute of Innovation – PW-IOI-Tech** 🚀
