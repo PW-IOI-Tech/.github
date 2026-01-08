@@ -7,6 +7,7 @@ Our goal is to build, maintain, and contribute to meaningful, real-world softwar
 ---
 
 ## Mission
+
 - Promote **open-source culture** among college students
 - Encourage **learning by building**
 - Create **real, usable projects** with proper engineering standards
@@ -15,6 +16,7 @@ Our goal is to build, maintain, and contribute to meaningful, real-world softwar
 ---
 
 ## What You’ll Find Here
+
 - Open-source projects built by PW-IOI students
 - Student-submitted projects evaluated and maintained under this org
 - Beginner-friendly issues for first-time contributors
@@ -23,62 +25,149 @@ Our goal is to build, maintain, and contribute to meaningful, real-world softwar
 ---
 
 ## Tech Domains
+
 We currently support projects in:
-- 🌐 Web Development (Frontend / Backend / Full Stack)
-- 📱 Mobile Development
-- 🧠 Machine Learning & AI
+
+- Web Development (Frontend / Backend / Full Stack)
+- Mobile Development
+- Machine Learning & AI
 
 ---
 
-## Project Submission Guidelines
-Students can submit **working and deployed projects** for review.
+## Project Submission
 
-### Minimum Requirements:
+Students can submit **existing, working projects** to be reviewed for inclusion under PW-IOI-Tech.
+
+### Minimum Requirements
+
 - Public GitHub repository
-- Clear `README.md` (project purpose + setup steps)
-- Live demo / deployment link (preferred)
-- Clean and understandable code
-- Scope for collaboration or improvement
+- Clear and complete `README.md`
+- Working build and/or live deployment (preferred)
+- Clean, readable, and maintainable code
+- Scope for collaboration and improvement
 
-> Note: Not all submissions may be accepted. Quality and maintainability matter.
+> Note: Acceptance is based on quality, clarity, and long-term maintainability.
 
 ---
 
-## How to Contribute
-1. Browse repositories under this organization
+## Contribution Workflow
+
+All repositories follow a **standardized open-source workflow**.
+
+1. Create or select an issue
+2. Issues are labeled by **type, difficulty, and priority**
 3. Fork the repository
-4. Create a feature branch
-5. Submit a Pull Request with a clear description
+4. Create a branch from `develop`
+5. Raise a Pull Request linked to the issue
+6. PR review → changes → merge by maintainers
 
-Please read the `CONTRIBUTING.md` in individual repositories before contributing.
+Every repository uses **Issue Templates, Pull Request Templates, and a common Label System**.
 
 ---
 
-## Roles
-- **Maintainers** – Project owners & reviewers
-- **Contributors** – Anyone contributing via PRs
-- **Core Team** – Initiative coordinators & decision makers
+## Git Workflow (Git Flow)
+
+PW-IOI-Tech follows a **Git Flow–based branching strategy** across all repositories.
+
+### Branch Structure
+
+- `main` → Production-ready, stable code
+- `develop` → Active development branch
+- `feature/*` → New features or improvements
+- `bugfix/*` → Bug fixes
+- `hotfix/*` → Critical production fixes
+- `release/*` → Release preparation (optional)
+
+### Development Rules
+
+- All work branches must be created from `develop`
+- Pull Requests must target `develop`
+- Direct commits to `main` are **not allowed**
+
+### Hotfixes
+
+- `hotfix/*` branches are created from `main`
+- Hotfix PRs must be merged into both `main` and `develop`
+
+### Releases
+
+- Releases are prepared from `develop`
+- Final merges go into `main`
+- Releases are tagged using semantic versioning
+  (`v1.0.0`, `v1.1.0`, etc.)
+
+---
+
+## Issue & Label System
+
+We use a consistent labeling system across all repositories.
+
+### Issue Types
+
+- `bug`
+- `feature`
+- `enhancement`
+- `documentation`
+- `refactor`
+- `chore`
+- `discussion`
+
+### Difficulty
+
+- `good first issue`
+- `easy`
+- `medium`
+- `hard`
+
+### Status
+
+- `help wanted`
+- `in progress`
+- `blocked`
+- `needs review`
+
+### Priority
+
+- `high`
+- `medium`
+- `low`
+
+This helps contributors quickly find suitable issues.
+
+---
+
+## Roles & Governance
+
+- **Contributors** – Anyone contributing via issues or PRs
+- **Maintainers** – Project owners and reviewers
+- **Core Team** – Organization-level coordinators and decision makers
+
+Only maintainers can approve and merge Pull Requests.
 
 ---
 
 ## Code of Conduct
-We are committed to providing a **welcoming and inclusive environment** for everyone.
-All members and contributors are expected to follow our Code of Conduct.
+
+PW-IOI-Tech is committed to maintaining a **respectful, inclusive, and welcoming environment**.
+
+All members and contributors are expected to follow the Code of Conduct.
 
 ---
 
 ## Why Join PW-IOI-Tech?
-- Work on **real-world projects**
-- Learn **collaboration, code reviews & best practices**
-- Build an **open-source portfolio**
+
+- Work on **real, visible open-source projects**
+- Learn **Git Flow, code reviews, and OSS best practices**
+- Build a **strong public GitHub portfolio**
 - Get recognized for meaningful contributions
 
 ---
 
-## Contact & Communication
-For announcements and discussions, please follow the official communication channels shared by the PW-IOI team.
+## Communication
+
+Official announcements, contribution drives, and updates are shared through PW-IOI communication channels.
 
 ---
 
-**Happy Building!**
-Let’s learn, build, and innovate together 🚀
+**Build with purpose. Collaborate with discipline.**
+**PW Institute of Innovation – PW-IOI-Tech** 🚀
