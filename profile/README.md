@@ -128,9 +128,9 @@ We use a consistent labeling system across all repositories.
 
 ### Priority
 
-- `high`
-- `medium`
-- `low`
+- `priority: high`
+- `priority: medium`
+- `priority: low`
 
 This helps contributors quickly find suitable issues.
 
