@@ -48,88 +48,65 @@ Students can submit **existing, working projects** to be reviewed for inclusion 
 
 > Note: Acceptance is based on quality, clarity, and long-term maintainability.
 
----
+### Project Ownership & Author Credit
 
-## Contribution Workflow
+When a student-submitted project is accepted:
 
-All repositories follow a **standardized open-source workflow**.
+- The project becomes part of **PW Institute of Innovation – Open Source**
+- Original creators are credited as **Project Authors**
+- Long-term ownership is organizational, not individual
 
-1. Create or select an issue
-2. Issues are labeled by **type, difficulty, and priority**
-3. Fork the repository
-4. Create a branch from `develop`
-5. Raise a Pull Request linked to the issue
-6. PR review → changes → merge by maintainers
+Submitting a project:
 
-Every repository uses **Issue Templates, Pull Request Templates, and a common Label System**.
-
----
-
-## Git Workflow (Git Flow)
-
-PW Institute of Innovation – Open Source follows a **Git Flow–based branching strategy** across all repositories.
-
-### Branch Structure
-
-- `main` → Production-ready, stable code
-- `develop` → Active development branch
-- `feature/*` → New features or improvements
-- `bugfix/*` → Bug fixes
-- `hotfix/*` → Critical production fixes
-- `release/*` → Release preparation (optional)
-
-### Development Rules
-
-- All work branches must be created from `develop`
-- Pull Requests must target `develop`
-- Direct commits to `main` are **not allowed**
-
-### Hotfixes
-
-- `hotfix/*` branches are created from `main`
-- Hotfix PRs must be merged into both `main` and `develop`
-
-### Releases
-
-- Releases are prepared from `develop`
-- Final merges go into `main`
-- Releases are tagged using semantic versioning
-  (`v1.0.0`, `v1.1.0`, etc.)
+- Does **not** guarantee permanent maintainer access
+- Does **not** bypass contribution or review processes
+- Does **not** prevent others from contributing
 
 ---
 
-## Issue & Label System
+## Contribution Philosophy
 
-We use a consistent labeling system across all repositories.
+All repositories under this organization follow **standard open-source practices**:
 
-| Issue Types     | Difficulty         | Status         | Priority           |
-| --------------- | ------------------ | -------------- | ------------------ |
-| `bug`           | `good first issue` | `help wanted`  | `priority: high`   |
-| `feature`       | `easy`             | `in progress`  | `priority: medium` |
-| `enhancement`   | `medium`           | `blocked`      | `priority: low`    |
-| `documentation` | `hard`             | `needs review` |
-| `refactor`      |                    |                |
-| `chore`         |                    |                |
-| `discussion`    |                    |                |
+- Issues are public and **not assigned by default**
+- Contributors self-select work
+- Pull Requests are the primary unit of contribution
+- Quality, collaboration, and documentation are prioritized
 
-This helps contributors quickly find suitable issues.
+> Detailed contribution workflow, labels, Git Flow, and PR guidelines are defined per repository.
 
-Please use:
+### Contributor Growth & Promotion
 
-- **One Issue Type**
-- **One Difficulty**
-- **One Priority (optional)**
-- **One Status (maintainers only)**
+All contributors start as **Contributors**.
+
+Based on consistent, high-quality contributions, contributors may progress through:
+
+```text
+Contributor → Reviewer → Maintainer (by invitation)
+```
+
+Promotion is based on:
+
+- Quality and consistency of Pull Requests
+- Understanding of the codebase
+- Collaboration and communication
+- Long-term responsibility
+
+Project authors and external contributors are evaluated using the same criteria.
+
+### Contributor Recognition
+
+- Contributors are recognized automatically via **GitHub commit history and merged PRs**
+- Release notes or public contribution records may also acknowledge contributors
+- Manual credit requests are discouraged
 
 ---
 
-## Roles & Governance
+## Governance
 
-- **Contributors** – Anyone contributing via issues or PRs
-- **Maintainers** – Project owners and reviewers
-- **Core Team** – Organization-level coordinators and decision makers
+PW Institute of Innovation - Open Source follows a defined governance model that explains roles, responsibilities, and decision-making authority.
 
-Only maintainers can approve and merge Pull Requests.
+See: [GOVERNANCE.md](../GOVERNANCE.md)
 
 ---
 
@@ -137,7 +114,7 @@ Only maintainers can approve and merge Pull Requests.
 
 PW Institute of Innovation – Open Source is committed to maintaining a **respectful, inclusive, and welcoming environment**.
 
-All members and contributors are expected to follow the Code of Conduct.
+All members and contributors are expected to follow the **Code of Conduct**.
 
 ---
 
