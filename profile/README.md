@@ -1,4 +1,4 @@
-# PW Institute of Innovation – PW-IOI-Tech
+# PW Institute of Innovation – Open Source
 
 Welcome to **PW-IOI-Tech**, the official open-source initiative of **PW Institute of Innovation (PW-IOI)**.
 
