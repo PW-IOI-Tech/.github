@@ -1,6 +1,6 @@
 # PW Institute of Innovation – Open Source
 
-Welcome to **PW-IOI-Tech**, the official open-source initiative of **PW Institute of Innovation (PW-IOI)**.
+Welcome to **PW Institute of Innovation – Open Source**, the official open-source initiative of **PW Institute of Innovation (PW-IOI)**.
 
 Our goal is to build, maintain, and contribute to meaningful, real-world software projects while helping students gain hands-on experience with industry-grade development practices.
 
@@ -36,7 +36,7 @@ We currently support projects in:
 
 ## Project Submission
 
-Students can submit **existing, working projects** to be reviewed for inclusion under PW-IOI-Tech.
+Students can submit **existing, working projects** to be reviewed for inclusion under PW Institute of Innovation – Open Source.
 
 ### Minimum Requirements
 
@@ -67,7 +67,7 @@ Every repository uses **Issue Templates, Pull Request Templates, and a common La
 
 ## Git Workflow (Git Flow)
 
-PW-IOI-Tech follows a **Git Flow–based branching strategy** across all repositories.
+PW Institute of Innovation – Open Source follows a **Git Flow–based branching strategy** across all repositories.
 
 ### Branch Structure
 
@@ -135,13 +135,13 @@ Only maintainers can approve and merge Pull Requests.
 
 ## Code of Conduct
 
-PW-IOI-Tech is committed to maintaining a **respectful, inclusive, and welcoming environment**.
+PW Institute of Innovation – Open Source is committed to maintaining a **respectful, inclusive, and welcoming environment**.
 
 All members and contributors are expected to follow the Code of Conduct.
 
 ---
 
-## Why Join PW-IOI-Tech?
+## Why Join PW Institute of Innovation – Open Source?
 
 - Work on **real, visible open-source projects**
 - Learn **Git Flow, code reviews, and OSS best practices**
@@ -157,4 +157,4 @@ Official announcements, contribution drives, and updates are shared through PW-I
 ---
 
 **Build with purpose. Collaborate with discipline.**<br />
-**PW Institute of Innovation – PW-IOI-Tech** 🚀
+**PW Institute of Innovation – PW Institute of Innovation – Open Source** 🚀
